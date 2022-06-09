@@ -1,0 +1,316 @@
+.cww-ssf-outer-wrapp .cww-sff-wrapp {
+    background: #fff;
+    padding: 35px;
+    box-shadow: 0 5px 15px rgb(0 0 0 / 50%);
+    
+}
+.cww-ssf-outer-wrapp.modal .cww-sff-wrapp {
+    position: fixed;
+    top: -100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition:all 0.1s ease;
+    
+}
+.cww-ssf-outer-wrapp.modal .cww-sff-wrapp.active{
+    top: 50%;
+    z-index: 99999;
+}
+
+
+
+
+.cww-ssf-outer-wrapp .toggle-wrapp {
+    display: inline-block;
+    position: fixed;
+}
+.cww-ssf-outer-wrapp a.cww-ssf-toggle:hover,
+.cww-ssf-outer-wrapp a.cww-ssf-toggle:focus,
+.cww-ssf-outer-wrapp a.cww-ssf-toggle:active{
+    color: #fff;
+}
+.cww-ssf-outer-wrapp .cww-ssf-toggle,
+.cww-ssf-outer-wrapp .cww-ssf-toggle:visited {
+    text-decoration: none;
+    font-size: 14px;
+    border: 1px solid #df3e7b;
+    line-height: 30px;
+    padding: 5px 25px 5px 25px;
+    display: inline-block;
+}
+.cww-ssf-outer-wrapp .cww-ssf-toggle i{
+    font-size: 20px;
+}
+
+
+.cww-ssf-outer-wrapp a.cww-ssf-toggle {
+    display: flex;
+    align-items: center;
+}
+.cww-ssf-outer-wrapp a.cww-ssf-toggle {
+    display: flex;
+    align-items: center;
+    
+}
+.cww-ssf-outer-wrapp .cww-ssf-toggle, 
+.cww-ssf-outer-wrapp .cww-ssf-toggle:visited{
+    animation:pulse 2s infinite ;
+    transition: all 0.3s;
+}
+
+@keyframes pulse{
+    0% {
+      transform: scale(.97);
+      box-shadow: 0 0 0 0 rgba(245, 180, 114, 0.7);
+    }
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 15px rgba(245, 180, 114, 0);
+    }
+    100% {
+      transform: scale(.97);
+    }
+  }
+
+.cww-ssf-outer-wrapp .cww-ssf-toggle i:after {
+    content: '';
+    mix-blend-mode: screen;
+    position: absolute;
+    top: 14px;
+    left: 14px;
+    width: 16px;
+    height: 16px;
+    background: rgba(255, 221, 177, 0.5);
+    opacity: 0;
+    border-radius: 100%;
+    transform-origin: 50% 50%;
+}
+.cww-ssf-outer-wrapp .cww-ssf-toggle:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+ .cww-ssf-outer-wrapp button,
+ .cww-ssf-outer-wrapp input[type="button"],
+ .cww-ssf-outer-wrapp input[type="reset"],
+ .cww-ssf-outer-wrapp input[type="submit"],
+ .cww-ssf-outer-wrapp p{
+    margin-bottom: 0;
+  }
+  .cww-ssf-outer-wrapp input[type="submit"]{
+      width: 100%;
+      height: 55px;
+  }
+.cww-ssf-outer-wrapp .cww-sff-wrapp i {
+    position: absolute;
+    right: 10px;
+    top: 16px;
+    font-size: 30px;
+    font-weight: 600;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    align-items: center;
+    line-height: 30px;
+    text-align: center;
+    color: #333;
+    transition: all 0.3s;
+}
+.cww-ssf-outer-wrapp .cww-sff-wrapp i:hover {
+    transform: scale(1.1);
+}
+
+.cww-ssf-outer-wrapp .cww-sff-wrapp i:hover{
+    cursor:pointer;
+}
+
+body.cww-sff-overlay .cww-sf-form-overlay {
+    position: fixed;
+    background: rgba(0,0,0,0.5);
+    height: 100%;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 9999;
+}
+/* Toggle button position */
+.cww-ssf-outer-wrapp.btn-position-bottom-right .toggle-wrapp{
+    right: 5%;
+    bottom: 20px;
+    z-index: 99999;
+}
+.cww-ssf-outer-wrapp.btn-position-bottom-left .toggle-wrapp{
+    left: 5%;
+    bottom: 20px;
+}
+.cww-ssf-outer-wrapp.btn-position-left .toggle-wrapp{
+    transform: rotate(90deg);
+    top: 50%;
+    left: -42px;
+}
+.cww-ssf-outer-wrapp.btn-position-left.attached .toggle-wrapp{
+    left: -37px;
+}
+.cww-ssf-outer-wrapp.btn-position-right.attached .toggle-wrapp{
+    right: -37px;
+}
+
+.cww-ssf-outer-wrapp.btn-position-left.modal  .toggle-wrapp{
+    left: -37px;
+}
+.cww-ssf-outer-wrapp.btn-position-right .toggle-wrapp{
+    transform: rotate(90deg);
+    top: 50%;
+    right: -42px;
+    z-index: 99999;
+}
+
+/**
+*
+* Used for sticky forms with buttons
+*
+*/
+.cww-ssf-outer-wrapp.attached .cww-sff-inner{
+    position: fixed;
+    z-index: 99999;
+    bottom: -140%;
+    transition: all 0.1s ease;
+}
+.cww-ssf-outer-wrapp.attached .cww-sff-inner .toggle-wrapp{
+    transition: all 0.1s ease;
+}
+.cww-ssf-outer-wrapp.btn-position-bottom-right.attached .cww-sff-inner.active .toggle-wrapp,
+.cww-ssf-outer-wrapp.btn-position-bottom-left.attached .cww-sff-inner.active .toggle-wrapp
+{
+     z-index: -1;
+}
+.cww-ssf-outer-wrapp.btn-position-bottom-right.attached .cww-sff-inner{
+    position: fixed;
+    right: 5%;
+    z-index: 99999;
+    bottom: -100%;
+    transition:all 0.1s ease;
+}
+.cww-ssf-outer-wrapp.btn-position-bottom-right.attached .cww-sff-inner.active,
+.cww-ssf-outer-wrapp.btn-position-bottom-left.attached .cww-sff-inner.active {
+    bottom: 0;
+}
+
+.cww-ssf-outer-wrapp.btn-position-bottom-left.attached .cww-sff-inner {
+    left: 5%;
+}
+
+.cww-ssf-outer-wrapp.btn-position-left.attached .cww-sff-inner.active .toggle-wrapp{
+    left: 391px;
+}
+.cww-ssf-outer-wrapp.btn-position-left.attached .cww-sff-inner {
+    left: -100%;
+    bottom: 13%;
+}
+
+.cww-ssf-outer-wrapp.btn-position-left.attached .cww-sff-inner.active{
+    left: 0;
+}
+
+
+.cww-ssf-outer-wrapp.btn-position-right.attached .cww-sff-inner.active .toggle-wrapp{
+    right:  391px;
+}
+.cww-ssf-outer-wrapp.btn-position-right.attached .cww-sff-inner {
+    right: -100%;
+    bottom: 13%;
+}
+
+.cww-ssf-outer-wrapp.btn-position-right.attached .cww-sff-inner.active{
+    right: 0;
+}
+
+/*****/
+
+/**
+* Toggle button layout
+*/
+ 
+.cww-ssf-outer-wrapp .toggle-wrapp.layout-two a.cww-ssf-toggle{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+}
+.cww-ssf-outer-wrapp.btn-position-left .toggle-wrapp.layout-two{
+    left: 0;
+}
+.cww-ssf-outer-wrapp.btn-position-left.attached .cww-sff-inner.active .toggle-wrapp.layout-two {
+    left: 550px;
+}
+
+.cww-ssf-outer-wrapp.btn-position-right .toggle-wrapp.layout-two{
+    right: 0;
+}
+.cww-ssf-outer-wrapp.btn-position-right.attached .cww-sff-inner.active .toggle-wrapp.layout-two {
+    right: 550px;
+}
+
+/**
+* Style when form header is enabled
+*/
+.cww-ssf-outer-wrapp .header-title-wrapp {
+    background: #f1f1f1;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 -20px 20px -20px;
+}
+.cww-ssf-outer-wrapp .header-desc-wrapp {
+    margin-bottom: 20px;
+}
+.cww-ssf-outer-wrapp.header-title .cww-sff-wrapp{
+    padding-top: 0;
+}
+
+
+@media only screen and (max-width: 768px){
+    .cww-ssf-outer-wrapp .cww-sff-inner .cww-sff-wrapp{
+        width: 522px ;
+    }
+}
+
+@media only screen and (max-width: 425px){
+    .cww-ssf-outer-wrapp .cww-sff-inner .cww-sff-wrapp{
+        width: 386px;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    .cww-ssf-outer-wrapp .cww-sff-inner .cww-sff-wrapp{
+        width: 366px;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    .cww-ssf-outer-wrapp .cww-sff-inner .cww-sff-wrapp{
+        width: 318px;
+    }
+}
+
+
+.cww-ssf-outer-wrapp textarea.wpcf7-form-control.wpcf7-textarea {
+    height: 110px;
+}
+
+.cww-ssf-outer-wrapp input[type=color], .cww-ssf-outer-wrapp input[type=date], .cww-ssf-outer-wrapp input[type=datetime-local], .cww-ssf-outer-wrapp input[type=datetime], .cww-ssf-outer-wrapp input[type=email], .cww-ssf-outer-wrapp input[type=month], .cww-ssf-outer-wrapp input[type=number], .cww-ssf-outer-wrapp input[type=password], .cww-ssf-outer-wrapp input[type=range], .cww-ssf-outer-wrapp input[type=search], .cww-ssf-outer-wrapp input[type=tel], .cww-ssf-outer-wrapp input[type=text], .cww-ssf-outer-wrapp input[type=time], .cww-ssf-outer-wrapp input[type=url], .cww-ssf-outer-wrapp input[type=week], .cww-ssf-outer-wrapp .cww-sff-wrapp textarea {
+    font-family: Open Sans;
+    font-weight: 400;
+    text-transform: none;
+    text-decoration: none;
+    font-size: 16px;
+}
+.cww-ssf-outer-wrapp input[type=color], .cww-ssf-outer-wrapp input[type=date], .cww-ssf-outer-wrapp input[type=datetime-local], .cww-ssf-outer-wrapp input[type=datetime], .cww-ssf-outer-wrapp input[type=email], .cww-ssf-outer-wrapp input[type=month], .cww-ssf-outer-wrapp input[type=number], .cww-ssf-outer-wrapp input[type=password], .cww-ssf-outer-wrapp input[type=range], .cww-ssf-outer-wrapp input[type=search], .cww-ssf-outer-wrapp input[type=tel], .cww-ssf-outer-wrapp input[type=text], .cww-ssf-outer-wrapp input[type=time], .cww-ssf-outer-wrapp input[type=url], .cww-ssf-outer-wrapp input[type=week], .cww-ssf-outer-wrapp .cww-sff-wrapp textarea {
+    border-radius: 0px;
+    border-color: #ccc;
+    color: #11204d;
+}
+.cww-ssf-outer-wrapp input[type=color], .cww-ssf-outer-wrapp input[type=date], .cww-ssf-outer-wrapp input[type=datetime-local], .cww-ssf-outer-wrapp input[type=datetime], .cww-ssf-outer-wrapp input[type=email], .cww-ssf-outer-wrapp input[type=month], .cww-ssf-outer-wrapp input[type=number], .cww-ssf-outer-wrapp input[type=password], .cww-ssf-outer-wrapp input[type=range], .cww-ssf-outer-wrapp input[type=search], .cww-ssf-outer-wrapp input[type=tel], .cww-ssf-outer-wrapp input[type=text], .cww-ssf-outer-wrapp input[type=time], .cww-ssf-outer-wrapp input[type=url], .cww-ssf-outer-wrapp input[type=week] {
+    height: 55px;
+}
