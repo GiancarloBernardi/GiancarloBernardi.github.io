@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: A Photo Gallery	</title>
+	<atom:link href="https://giancarlobernardi.github.io/a-photo-gallery/feed/" rel="self" type="application/rss+xml" />
+	<link>https://giancarlobernardi.github.io/a-photo-gallery/</link>
+	<description>Video Editor and Colorist</description>
+	<lastBuildDate>Wed, 15 Nov 2017 15:03:59 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0</generator>
+	<item>
+		<title>
+		By: Felix		</title>
+		<link>https://giancarlobernardi.github.io/a-photo-gallery/#comment-12</link>
+
+		<dc:creator><![CDATA[Felix]]></dc:creator>
+		<pubDate>Wed, 15 Nov 2017 15:03:59 +0000</pubDate>
+		<guid isPermaLink="false">http://richwp.r1e9.com/north/?p=129#comment-12</guid>
+
+					<description><![CDATA[Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.]]></description>
+			<content:encoded><![CDATA[<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>
