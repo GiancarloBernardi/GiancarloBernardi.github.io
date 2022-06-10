@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments on: Hello world!	</title>
-	<atom:link href="http://giancarlobernardi.github.io/hello-world/feed/" rel="self" type="application/rss+xml" />
-	<link>http://giancarlobernardi.github.io/hello-world/</link>
+	<atom:link href="https://giancarlobernardi.github.io/hello-world/feed/" rel="self" type="application/rss+xml" />
+	<link>https://giancarlobernardi.github.io/hello-world/</link>
 	<description>Video Editor and Colorist</description>
 	<lastBuildDate>Thu, 24 Mar 2022 08:49:37 +0000</lastBuildDate>
 	<sy:updatePeriod>
@@ -20,7 +20,7 @@
 	<item>
 		<title>
 		By: A WordPress Commenter		</title>
-		<link>http://giancarlobernardi.github.io/hello-world/#comment-2</link>
+		<link>https://giancarlobernardi.github.io/hello-world/#comment-2</link>
 
 		<dc:creator><![CDATA[A WordPress Commenter]]></dc:creator>
 		<pubDate>Thu, 24 Mar 2022 08:49:37 +0000</pubDate>
