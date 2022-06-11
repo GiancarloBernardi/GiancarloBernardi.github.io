@@ -12,7 +12,7 @@
 	<atom:link href="https://giancarlobernardi.github.io/feed/" rel="self" type="application/rss+xml" />
 	<link>https://giancarlobernardi.github.io/</link>
 	<description>Video Editor and Colorist</description>
-	<lastBuildDate>Fri, 10 Jun 2022 17:48:24 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 11 Jun 2022 09:40:44 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -42,7 +42,14 @@ Julien, absent for three years, suddenly gets back in contact with Yann and offe
 						<div class="elementor-container elementor-column-gap-default">
 					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-8710ad5" data-id="8710ad5" data-element_type="column">
 			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-5df31d2 elementor-aspect-ratio-169 elementor-widget elementor-widget-video" data-id="5df31d2" data-element_type="widget" data-settings="{&quot;youtube_url&quot;:&quot;https:\/\/youtu.be\/BAqmfEsxxo0&quot;,&quot;lazy_load&quot;:&quot;yes&quot;,&quot;video_type&quot;:&quot;youtube&quot;,&quot;controls&quot;:&quot;yes&quot;,&quot;aspect_ratio&quot;:&quot;169&quot;}" data-widget_type="video.default">
+								<div class="elementor-element elementor-element-f4449eb elementor-widget elementor-widget-html" data-id="f4449eb" data-element_type="widget" data-widget_type="html.default">
+				<div class="elementor-widget-container">
+			<div class="embed-responsive embed-responsive-16by9">
+    
+    <iframe width="560" height="360" src="https://www.youtube.com/embed/BAqmfEsxxo0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>		</div>
+				</div>
+				<div class="elementor-element elementor-element-5df31d2 elementor-aspect-ratio-169 elementor-widget elementor-widget-video" data-id="5df31d2" data-element_type="widget" data-settings="{&quot;youtube_url&quot;:&quot;https:\/\/youtu.be\/BAqmfEsxxo0&quot;,&quot;lazy_load&quot;:&quot;yes&quot;,&quot;video_type&quot;:&quot;youtube&quot;,&quot;controls&quot;:&quot;yes&quot;,&quot;aspect_ratio&quot;:&quot;169&quot;}" data-widget_type="video.default">
 				<div class="elementor-widget-container">
 			<style>/*! elementor - v3.6.6 - 08-06-2022 */
 .elementor-widget-video .elementor-widget-container{overflow:hidden;-webkit-transform:translateZ(0);transform:translateZ(0)}.elementor-widget-video .elementor-open-inline .elementor-custom-embed-image-overlay{position:absolute;top:0;left:0;width:100%;height:100%;background-size:cover;background-position:50%}.elementor-widget-video .elementor-custom-embed-image-overlay{cursor:pointer;text-align:center}.elementor-widget-video .elementor-custom-embed-image-overlay:hover .elementor-custom-embed-play i{opacity:1}.elementor-widget-video .elementor-custom-embed-image-overlay img{display:block;width:100%}.elementor-widget-video .e-hosted-video .elementor-video{-o-object-fit:cover;object-fit:cover}</style>		<div class="elementor-wrapper elementor-fit-aspect-ratio elementor-open-inline">
